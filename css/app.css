@@ -1,0 +1,145 @@
+
+
+.wrap {
+  max-width: 700px;
+  padding: 0;
+}
+
+.imgnav {
+  padding: 0;
+}
+footer {
+
+  background-color: #222;
+  padding: 80px 0px;
+}
+.back1 {
+  width: auto;
+  padding: 0;
+
+}
+.banner {
+height: 10vh;
+font-family: 'Abel', sans-serif;
+font-size: 50px;
+padding: 10px;
+text-align: center;
+}
+.banner p {
+  font-family: 'Abel', sans-serif;
+  font-size: 50px;
+
+}
+.top-bar{
+  display: inline-block;
+  text-align: left;
+  font-size: 200%;
+  list-style-type: none;
+  max-width: 20%;
+
+}
+.top-bar, .top-bar ul {
+  background-color: white;
+
+}
+ul{
+  list-style-type: none;
+
+}
+.right {
+  width:73%;
+  display: inline-block;
+  float: right;
+  text-align: left;
+  background-color: #626E60;
+  height: auto;
+  padding: 35px;
+  text-align: center;
+}
+.right p{
+  max-width: 65%;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 30px;
+margin-left: auto;
+margin-right: auto;
+  font-size: 150%;
+}
+.right h1{
+font-family: 'Abel', sans-serif;
+text-align: center;
+color: white;
+}
+img.propic {
+float: center;
+width: 560px;
+height: 415px;
+}
+li {
+    padding:35px;
+font-family: 'Abel', sans-serif;
+padding-right: 0;
+display: inline-block;
+}
+.mainnav h2 {
+font-family: 'Abel', sans-serif;
+padding-right: 0;
+display: inline-block;
+font-size: 140%;
+width: auto;
+font-style: italic;
+}
+.column {
+  padding: 0;
+
+}
+
+
+footer a {
+  display:block;
+}
+
+
+
+.navimg:hover {
+
+  display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px transparent;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: transform;
+   transition-property: transform;
+ }
+
+
+.navimg:hover, .navimg:focus, .navimg:active {
+  -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+
+}
+.mainnav {
+  color: #3C3C3C;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.mainnav:hover, .mainnav:focus, .mainnav:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+  color: #945D60;
+}
+.hero{
+  background-color: #626E60;
+}
